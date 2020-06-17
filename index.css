@@ -104,7 +104,12 @@ nav {
 }
 
 .curator-cta {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5%;
 }
 .curator-profile {
     flex-direction: column;
@@ -116,7 +121,6 @@ nav {
 }
 .curator-profile > * {
     display: inline-block;
-    padding: 0 5%;
     min-width: 100%;
 }
 
@@ -127,14 +131,13 @@ nav {
 
 
 .subscribe-container {
-    padding: 5%; 
     display: block;
     width: 100%;
 }
 
 .subscribe-container form {
     margin: 0 auto;
-    padding: 0;
+    padding: 2.5% 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -143,7 +146,7 @@ nav {
 }
 
 .subscribe-container form > input {
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -175,15 +178,12 @@ form textarea {
     .curator-container {
         flex-direction: row;
     }
-    .curator-profile {
-        padding: 5%;
-    }
+  
     .curator-profile h1 {
         text-align: left;
     }
 
     .subscribe-container form {
-        padding: 5%;
         justify-content: space-between; 
         align-self: start;
         margin: 0;
